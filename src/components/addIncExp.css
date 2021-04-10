@@ -1,0 +1,47 @@
+.container{
+    background: rgb(14, 13, 13);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form input{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid rgb(179, 3, 3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(242, 246, 250);
+
+}
+.form input:focus ~ label,.amt-label{
+    color: rgb(243, 234, 234);
+}
+
+.form input[type="text"]:focus{
+    width: 115%;
+}
+
+.form input[type="submit"]{
+    width: 50%;
+    align-self: center;
+}
+.form input[type="submit"]:hover{
+    width: 60%;
+}
+
+label{
+    margin: 20px;
+    color: rgb(202, 1, 1);
+    font-size: 17px;
+    font-family: sans-serif;
+}
